@@ -113,7 +113,7 @@ angular.module('LoginOAuth', [
           qSignIn.resolve();
         },
         function(error) {
-          console.error('Login Failure', providerAuth, error);
+          console.error('Login Failure', JSON.stringify(providerAuth ,null,"    "), JSON.stringify(error ,null,"    "));
           qSignIn.reject();
         }
       );
