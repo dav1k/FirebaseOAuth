@@ -1,0 +1,30 @@
+** BUILD SUCCEEDED **
+
+No target specified for emulator. Deploying to iPhone-6 simulator
+com.ionicframework.starter: 30556
+** RUN SUCCEEDED **
+Ionic server commands, enter:
+  restart or r to restart the client app from the root
+  goto or g and a url to have the app navigate to the given url
+  consolelogs or c to enable/disable console log output
+  serverlogs or s to enable/disable server log output
+  quit or q to shutdown the server and exit
+
+0     516462   log      AuthServices loaded
+1     516463   log      LoginCtrl loaded.
+2     516481   error    TypeError: undefined is not an object (evaluating 'window.cordova.plugins.Keyboard'), http://192.168.1.153:8100/js/app.js, Line: 12
+3     517491   log      Login Button Clicked
+4     517492   log      Login with Google
+5     517513   error    Login Failure, {
+    "providerId": "google.com",
+    "isOAuthProvider": true,
+    "tc": [
+        "email"
+    ]
+}, {
+    "code": "auth/unauthorized-domain",
+    "message": "This domain is not authorized for OAuth operations for your Firebase project. Edit the list of authorized domains from the Firebase console."
+}
+6     517536   error    Login Failed.
+q
+Closing Gulp process
